@@ -19,7 +19,7 @@ spec:
         args:
         - --ingress-class=alb
         - --cluster-name=rituraj-rupa-eks
-        - --aws-vpc-id=vpc-098a6ef5a82dca294
+        - --aws-vpc-id=vpc-055e69ef00733fa2b
         - --aws-region=us-east-1
         image: docker.io/amazon/aws-alb-ingress-controller:v1.1.6
       serviceAccountName: alb-ingress-controller
